@@ -16,7 +16,7 @@ Run script `imabalance.py` for creating `unbalanced_keypoints.csv`.
 
 `unbalanced_keypoints.csv` file format is:
 
-image_file_name, label, <x_1, y_1>, <x_2, y_2>, ..., <x_n, y_n>
+image_file_name, <x_1, y_1>, <x_2, y_2>, ..., <x_n, y_n>, label
 
 where each <x_n, y_n> corresponds to the coordinate of a keypoint. Each image has a total of 17 keypoints.
 `body/2d_kpt_sview_rgb_img/topdown_heatmap`
@@ -34,8 +34,3 @@ pose_detection
 ```    
 
 Run script `misc.py` for counting labels for each csv file
-
-
-
-
-
